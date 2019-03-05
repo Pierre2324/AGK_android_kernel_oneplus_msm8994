@@ -147,10 +147,6 @@ extern bool s3320_touch_active(void);
 
 static struct fpc1020_data *fpc1020_g = NULL;
 
-extern bool s3320_touch_active(void);
-
-static struct fpc1020_data *fpc1020_g = NULL;
-
 static int fpc1020_request_named_gpio(struct fpc1020_data *fpc1020,
 		const char *label, int *gpio)
 {
