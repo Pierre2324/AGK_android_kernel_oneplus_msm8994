@@ -5,5 +5,5 @@ export USE_CCACHE=1
 export KBUILD_BUILD_USER="Pierre2324";
 export KBUILD_BUILD_HOST="Pierre-Ubuntu";
 export CCOMPILE=$CROSS_COMPILE;
-make nogravity_defconfig;
+make antigravity_defconfig;
 make -j$(nproc --all);
